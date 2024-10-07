@@ -1,0 +1,120 @@
+body {
+    font-family: 'Times New Roman', serif; /* クラシックなフォントに変更 */
+    background-color: #fafafa; /* 背景をより柔らかい色に */
+    padding: 20px;
+    color: #333;
+    margin: 0;
+    padding-top: 60px; /* ヘッダーの高さに合わせて余白を追加 */
+}
+
+header {
+    top: 0; /* ページの上部に配置 */
+    left: 0; /* 左端に配置 */
+    width: 100%; /* 幅を全体に広げる */
+    background-color: #fafafa; /* 背景色を設定 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 影を追加して立体感を */
+    z-index: 1000; /* 他の要素より前面に表示されるように */
+    margin: 0; /* ヘッダーのマージンをリセット */
+    padding: 15px 20px; /* ヘッダー内のパディングを設定 */
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px; /* ヘッダーの固定分の余白を追加 */
+}
+
+.tab {
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.tab:hover {
+    background-color: #e0e0e0; /* ホバー時の色をソフトに */
+}
+
+.tab.active {
+    border-bottom: 1px solid transparent;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px; /* 角を少し丸く */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* シャドウを控えめに */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Georgia', serif; /* クラシックなフォントに変更 */
+}
+
+.form-group select,
+.form-group input[type="text"],
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* ボーダー色を控えめに */
+    border-radius: 0; /* 角を直線に */
+}
+
+.form-group input[type="submit"] {
+    background-color: #444; /* 落ち着いたダークカラー */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0; /* 角を直線に */
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #333; /* ホバー時の色を少し暗く */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc; /* ボーダーをクラシックな色合いに */
+    text-align: center;
+}
+
+th {
+    background-color: #444; /* テーブルヘッダをダークカラーに */
+    color: white;
+}
+
+textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #333;
+}
+
+select, input[type="date"] {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 0; /* 角を直線に */
+}
